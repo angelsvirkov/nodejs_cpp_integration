@@ -1,0 +1,15 @@
+{
+  "name": "nodejs_cpp_integration",
+  "description": "An example on how to use native node modules written in C++ inside a nodejs project",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "author": "Angel Svirkov <angel.svirkov@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node-gyp rebuild"
+  },
+  "dependencies": {
+    "node-addon-api": "^3.1.0"
+  }
+}
